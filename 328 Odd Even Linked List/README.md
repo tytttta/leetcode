@@ -1,4 +1,3 @@
 # leetcode
-NO.	      Title	Solution  	      Add Date	        Difficulty
+问题描述：给定一个单链表，对其排序，奇数放前面，偶数放后面，奇数之间相对位置不变，偶数同。要求时间复杂度为O（n），空间复杂度为O（1）。
 
-242       Valid Anagram           2016.1.18         easy
