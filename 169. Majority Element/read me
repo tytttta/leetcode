@@ -1,0 +1,13 @@
+Problem description :
+
+Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+
+You may assume that the array is non-empty and the majority element always exist in the array.
+
+Solution:
+Put all the elements to a hashtable, if the current element has be include in the hashtable,then the value of the key(current element)
+will be added.
+
+tips:
+
+The time of searching the key and geting the value will be too long.
