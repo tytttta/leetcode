@@ -11,3 +11,5 @@ will be added.
 tips:
 
 The time of searching the key and geting the value will be too long.
+
+notice that the majority element must appear more than ⌊ n/2 ⌋ times.Or it will give an invlid output.
