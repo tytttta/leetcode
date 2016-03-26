@@ -1,0 +1,10 @@
+Problem description :
+
+Reverse a singly linked list.
+
+Solution:
+For a given list, put all the node to a new list. Every new inserted node will be the first node.
+
+tip:
+Another way to reduce time cost?
+2016-03-26 11:29:52
