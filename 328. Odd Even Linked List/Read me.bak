@@ -1,0 +1,11 @@
+Problem description :
+
+Given a roman numeral, convert it to an integer.
+
+
+Solution:
+Build an Array to store all the roman numeral and its corresponding integer.
+Calculate the number of roman numeral.
+
+tips:
+If the current roman numeral is less than the next roman numeral, it will be minus not add.

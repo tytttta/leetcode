@@ -1,0 +1,20 @@
+Problem description :
+
+Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
+
+Example:
+Given num = 16, return true. Given num = 5, return false.
+
+Follow up: Could you solve it without loops/recursion?
+
+Solution:
+Notice that the number that is power of 4 is suit for the regulation: 
+1. is the power of 2(make sure that the number of 1 is one)
+2. the position of 1(binary) is the odd.for example :100, 10000
+
+Use manipulate to solve this problem.
+ (num & (num-1))==0 presents that only one 1 in its binary.
+ (num  & 0x55555555)=!=0 presents the position of 1 is the odd.
+
+tips:
+0x55555555=1010101010101010101010101010101

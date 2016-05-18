@@ -1,0 +1,13 @@
+Problem description :
+
+Write a function that takes a string as input and returns the string reversed.
+
+Example:
+Given s = "hello", return "olleh".
+
+
+Solution:
+Swap the first char with the last char util the mid .
+
+tips:
+Can be optimized?

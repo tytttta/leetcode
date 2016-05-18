@@ -1,0 +1,13 @@
+Problem description :
+
+You are climbing a stair case. It takes n steps to reach to the top.
+
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+
+Solution:
+It is absolute that when n=1 or 2, u can take 1 and 2 ways to climb. And when n>2 ,the last step can be 1 or 2,
+so u can take( n-1 plus n-2 )ways to climb .
+
+tips:
+Is it really a dp problem?

@@ -1,0 +1,10 @@
+Problem description :
+
+Given an integer, write a function to determine if it is a power of three.
+
+
+Solution:
+use the number to divide 3 to see whether it is a power of three.
+
+tips:
+whether it can be done  without using any loop / recursion?

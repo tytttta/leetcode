@@ -1,0 +1,18 @@
+Problem description :
+
+Write a function that takes a string as input and reverse only the vowels of a string.
+
+Example 1:
+Given s = "hello", return "holle".
+
+Example 2:
+Given s = "leetcode", return "leotcede".
+
+
+Solution:
+Traverse all the char from the begining to the end in the string , find the first and the last vowels in the string then swap it,
+ and then the second and last second.
+
+tips:
+Be careful that the uppercase of "aoeiu" are also vowels.
+Can optimize this algorithm?

@@ -1,0 +1,18 @@
+Problem description :
+
+Given an integer, write a function to determine if it is a power of two.
+
+
+Solution 1:
+If the number can  not be divide by 2, it must not be the power of 2. If it can, then divide 2 to replace itself
+
+
+Solution 2:
+
+Fisrtly the number must be larger than zero, secondly  the number of 1 in its binary must be only one!
+
+condition: num >0 && (num & (num-1))==0
+
+
+tips:
+Be careful of the number 0.

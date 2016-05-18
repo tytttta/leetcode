@@ -1,0 +1,10 @@
+Problem description :
+
+erge two sorted linked lists and return it as a new list. 
+The new list should be made by splicing together the nodes of the first two lists.
+
+Solution:
+Compare the value of  node in the two list .Put the min value into a new list until one list is empty.
+
+tips:
+time complexity is O(n). n is the shortest length in the two list.

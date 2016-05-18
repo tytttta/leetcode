@@ -20,3 +20,12 @@
            }
            
            2.将字符串转变为字符数组，然后对其进行排序后，重新转化为字符串，比较内容即可--------可行
+           
+Solution 2:
+if the length of two string is different ,it mean they are not anagram. Build a array to store the 
+count of appearence of all the character in the first string. If it alse appear in the second string minus the count of appearance.
+Then judge whether all the  value in the array are zero.
+
+
+Solution 3:
+Sort the two string to judge whether these two string is equal!

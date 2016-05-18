@@ -1,0 +1,13 @@
+Problem description :
+
+Implement strStr().
+
+Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+
+Solution:
+
+traverse the haystack from the index o to the index haystack.length()-needle.length()+1; to see the first occurrence.
+
+tips:
+optimize?

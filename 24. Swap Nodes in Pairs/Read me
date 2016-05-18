@@ -1,0 +1,12 @@
+Problem description :
+
+Given a linked list, swap every two adjacent nodes and return its head.
+
+For example,
+Given 1->2->3->4, you should return the list as 2->1->4->3.
+
+Solution:
+Build an node to direct the first node of the list.then swap the two adjacent node!
+
+tips:
+Be careful of the last null node !

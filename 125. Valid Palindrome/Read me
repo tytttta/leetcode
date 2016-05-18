@@ -1,0 +1,15 @@
+Problem description :
+
+Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+For example,
+"A man, a plan, a canal: Panama" is a palindrome.
+"race a car" is not a palindrome.
+
+
+Solution:
+Use two pointer to direct the head and tail to check whether the two character is same. If not, the string is not palindrome, if it is,
+check the next two character.
+
+tips:
+Only considering the numeric and character!

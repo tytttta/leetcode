@@ -1,0 +1,10 @@
+Problem description :
+
+Given an integer, write a function to determine if it is a power of two.
+
+
+Solution:
+If the number can  not be divide by 2, it must not be the power of 2. If it can, then divide 2 to replace itself
+
+tips:
+Be careful of the number 0.

@@ -1,0 +1,16 @@
+Problem description :
+
+Write a program to check whether a given number is an ugly number.
+
+Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For example, 6, 8 are ugly while 14 is not ugly since it includes another prime factor 7.
+
+Note that 1 is typically treated as an ugly number.
+
+
+Solution:
+if the num can be devided by 2,3,5 then use the num to divide 2,3,5 to get the divided value until the number is equal to 1 then it will be a ugly num. 
+if not, then the number is not ugly number.
+
+tips:
+Be careful that the number 0 is not ugly number,and the number 1 is ugly number . And  when the number is excced than the largest number 
+of int(2147483648), how to get the right result.
