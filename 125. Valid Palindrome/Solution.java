@@ -1,7 +1,7 @@
 public class Solution {
     public boolean isPalindrome(String s) {
         s=s.toLowerCase();
-        for(int i=0,j=s.length()-1;i<=j;)
+        for(int i=0,j=s.length()-1;i<j;)
         {
             if((s.charAt(i)<97 && s.charAt(i)>57) || s.charAt(i)>122 ||s.charAt(i)<48)
             {
