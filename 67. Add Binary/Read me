@@ -1,0 +1,15 @@
+Problem description :
+
+Given two binary strings, return their sum (also a binary string).
+
+For example,
+a = "11"
+b = "1"
+Return "100".
+
+Solution:
+use the add and carry of bit to solve the problem.
+
+
+tips:
+optimize?

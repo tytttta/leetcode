@@ -1,0 +1,13 @@
+Problem description :
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+
+Solution:
+search the string array from begin to end to find the com prefix string 
+
+tips:
+how to reduce the time cost?
+
+Solution 2:
+regard the first string as the common prefix then reduce the length of the prefix to find the common prefix

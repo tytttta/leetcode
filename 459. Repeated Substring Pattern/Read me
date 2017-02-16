@@ -1,0 +1,22 @@
+Problem description :
+
+Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
+
+Example 1:
+Input: "abab"
+
+Output: True
+
+Explanation: It's the substring "ab" twice.
+Example 2:
+Input: "aba"
+
+Output: False
+
+
+Solution:
+Search for the middle to the begin of the string to whether the length of substring can be diviede by the length of the orginal string. If it is, then it might be the possible wanted substring. Then we append the substring many times to see whether it is equal to the orginal string. If it is, then it is the want substring, if it wasn't , continue the process.
+
+tips:
+this method check the substring from the middle of the string ,it reduce more time cost than the method that search the first substrig from the begin to the end.
+

@@ -1,0 +1,17 @@
+Problem description :
+
+Given an integer array nums, find the sum of the elements between indices i and j (i ¡Ü j), inclusive.
+
+Example:
+Given nums = [-2, 0, 3, -5, 2, -1]
+
+sumRange(0, 2) -> 1
+sumRange(2, 5) -> -1
+sumRange(0, 5) -> -3
+
+
+Solution:
+use a array nums[j] to store the sum from the index 0 to index j, then the  nums[j]-nums[i-1] (i!=0)can represent the value of sumRange(i,j) 
+
+tips:
+

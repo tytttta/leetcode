@@ -1,0 +1,21 @@
+Problem description :
+
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+
+
+Solution:
+use the stack to checke whether the characters is matched.
+
+tips:
+how to simplify the code?
+
+solution :
+push the oppsite characters when search the string ,if  the characters is not equal to the top of stack return false.
+for example :
+if (c == '(')
+	stack.push(')');
+
+ if (stack.isEmpty() || stack.pop() != c)
+			return false;

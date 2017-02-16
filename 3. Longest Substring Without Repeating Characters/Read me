@@ -1,0 +1,24 @@
+Problem description :
+
+Given a string, find the length of the longest substring without repeating characters.
+
+Examples:
+
+Given "abcabcbb", the answer is "abc", which the length is 3.
+
+Given "bbbbb", the answer is "b", with the length of 1.
+
+Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+
+Solution:
+Use a hashmap to store all  the elements and its index, and two pointers to point the begin and end of substring. The begin pointer move forward firstly, when find the same character, the end pointer move forward too, meanwhile check the position of end pointer and index of same character in the hashmap. Then the difference of begin and end pointer is the length of substring. Then find the max substring.
+
+for example:
+The string is "abcac", when the begin pointer(4) point 'c', the end pointer(1) point b, then position of 'c' in hashmap is 2. Then the length of substring(not the max substirng) is 4-2=2,which is "ac".
+
+tips:
+
+
+Solution 2:
+Use the array to store the index of all the element not the hashmap. The principle is the same.

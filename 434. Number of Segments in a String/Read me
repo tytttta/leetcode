@@ -1,0 +1,18 @@
+Problem description :
+
+Count the number of segments in a string, where a segment is defined to be a contiguous sequence of non-space characters.
+
+Please note that the string does not contain any non-printable characters.
+
+Solution:
+from the begin of string to the end to fin the first non-characters char, then use the substring to replace the orgin string, then count the number of word in the string. 
+
+tips:
+can reduce the time cost?
+
+
+Solution 2:
+find the first char that is not space and its previous char is space, which means it is the begin of one word.
+
+solution3:
+use trim() and split(), return trimmed.length() == 0?0:trimmed.split("\\s+").length;
