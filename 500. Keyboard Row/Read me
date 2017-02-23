@@ -1,0 +1,17 @@
+Problem description :
+
+Given a List of words, return the words that can be typed using letters of alphabet on only one row's of 
+
+Example 1:
+Input: ["Hello", "Alaska", "Dad", "Peace"]
+Output: ["Alaska", "Dad"]
+Note:
+You may use one character in the keyboard more than once.
+You may assume the input string will only contain letters of alphabet.
+
+
+Solution:
+Use a hasmap or an array to stroe all alphabet. Search the String array from the begin to the end, for each string, check all the elements to see whether is is in the same line with  the first alphabet.
+
+tips:
+can make it simple?
