@@ -1,0 +1,14 @@
+Problem description :
+
+Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -.
+
+Example:
+Given a = 1 and b = 2, return 3.
+
+
+
+Solution:
+Use bit manipulation to calculate the result, a&b get the carry, and a^b find the different bit. Then, we shift carry one position left and assign it to b, b = 0010. Iterate until there is no carry (or b == 0)
+
+tips:
+

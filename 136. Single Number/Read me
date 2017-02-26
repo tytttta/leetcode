@@ -1,0 +1,10 @@
+Problem description :
+
+Given an array of integers, every element appears twice except for one. Find that single one.
+
+Solution:
+Use the bit manipulate(exclusive or) to find the the single value.
+
+
+tips:
+Other idea?
