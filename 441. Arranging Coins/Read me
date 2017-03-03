@@ -1,0 +1,41 @@
+Problem description :
+
+You have a total of n coins that you want to form in a staircase shape, where every k-th row must have exactly k coins.
+
+Given n, find the total number of full staircase rows that can be formed.
+
+n is a non-negative integer and fits within the range of a 32-bit signed integer.
+
+Example 1:
+
+n = 5
+
+The coins can form the following rows:
+¤
+¤ ¤
+¤ ¤
+
+Because the 3rd row is incomplete, we return 2.
+Example 2:
+
+n = 8
+
+The coins can form the following rows:
+¤
+¤ ¤
+¤ ¤ ¤
+¤ ¤
+
+Because the 4th row is incomplete, we return 3.
+
+Solution:
+The total number of k rows is (k+1)*k/2, so when we know the value of n, we can induce the value of row, and compare the total number of k row and k+1 row with n to get the full staircase.
+
+tips:
+When then value of n is large, be careful that 2*n will exceed the max num of int, can use long to convert it.
+any other idea?
+
+Solution 2:
+Binary search: make two pointer to point the start(first 0) and the end(first n) of the value. Then  get the mid number of the start and the end. Then get the total numver of mid rows. If is belows n,then make the mid+1 to be start, else make the mid-1 to be end, until get the right rows.
+Still be careful of the max value of int and long.
+

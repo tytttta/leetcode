@@ -1,0 +1,22 @@
+Problem description :
+
+Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.
+
+You may assume the integer do not contain any leading zero, except the number 0 itself.
+
+The digits are stored such that the most significant digit is at the head of the list.
+
+
+
+
+Solution:
+for example: arr={1,2,3} represents 123, puls one get 124, return {1,2,4}. Creat a new array to plus one to each element in the array.Notice that the length of new  array may change such as {9,9}.
+
+tips:
+The point of above solution is to judeg whether the first element of array is lagerer than 10. If it is ,creat an arrray whose length is larger than the orginal array, then the first two element is 1 and 0. If it not, creat an array whose length is same with the orginal array. But the step is complexity. can make it simple?
+
+
+Solution 2:
+Add 1 to each element from the end to the begin, if the element is less than 10, return the array directly. Because there will be no carry in the array. If the element is larger than 10 from the end to the begin, then creat a new array, make the first two element to be 1 and 0.
+The point of this method is that if the new element's lentht is larger than the orginal array, the first elemet will be 1 and all others are 0.
+

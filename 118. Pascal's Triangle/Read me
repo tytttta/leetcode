@@ -1,0 +1,20 @@
+Problem description :
+
+Given numRows, generate the first numRows of Pascal's triangle.
+
+For example, given numRows = 5,
+Return
+
+[
+     [1],
+    [1,1],
+   [1,2,1],
+  [1,3,3,1],
+ [1,4,6,4,1]
+]
+
+Solution:
+Use an numRows*numRows array to store the value,the first value and last value of each array is 1; and other value is arr[i][j]=arr[i-1][j-1]+arr[i-1][j]; besides, each line(row n) contains n number, the other will be set 0. Lastly ,every non-0 value will be put into the list.
+
+tips:
+

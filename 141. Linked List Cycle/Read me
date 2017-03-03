@@ -1,0 +1,10 @@
+Problem description :
+
+Given a linked list, determine if it has a cycle in it.
+
+Solution:
+Use two pointers to point the list, one move one step, the other moves two step. if the list has a cycle, they will meet somewhere.
+
+
+tips:
+
