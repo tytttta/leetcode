@@ -1,0 +1,14 @@
+Problem description :
+
+Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
+
+For example, given the array [-2,1,-3,4,-1,2,1,-5,4],
+the contiguous subarray [4,-1,2,1] has the largest sum = 6.
+
+
+Solution:
+
+This is a dynamic program problem. Find the sub problem to get the result. Use an array res[] to represent the max sum of former i element. If it is above 0, add the res[i+1], else make it to 0.
+
+tips:
+Be careful that all the element is negative.

@@ -1,0 +1,12 @@
+Problem description :
+
+Given an integer n, return the number of trailing zeroes in n!.
+
+Note: Your solution should be in logarithmic time complexity.
+
+Solution:
+The number of trailing 0 in n! depends on the number of 2*5, but the number of 2 is large such as 2 ,4,6.. but the number of five is small, there is k 5, there must be k 10(2*5).So we just count how many 5 factors in all number from 1 to n
+
+
+tips:
+
