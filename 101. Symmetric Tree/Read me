@@ -1,0 +1,29 @@
+Problem description :
+
+Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+
+For example, this binary tree [1,2,2,3,4,4,3] is symmetric:
+
+    1
+   / \
+  2   2
+ / \ / \
+3  4 4  3
+But the following [1,2,2,null,3,null,3] is not:
+    1
+   / \
+  2   2
+   \   \
+   3    3
+
+Solution:
+Use a list to store the value of node in each child tree. If the post of left child tree is oppsite of the preorder of right child tree. Then the tree is symmetric. 
+For example :
+The example 1, the post order of left child tree is [3,4,2], the preorder of right child tree is [2,4,3].
+
+tips:
+Can be more simple?
+
+
+Solution 2:
+Compare the left child of left child tree with the right child of right child tree. And Compare the right child node of left tree with the left child node of right tree. IF  they are all equals, then the tree is symmetric.
